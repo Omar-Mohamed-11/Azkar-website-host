@@ -1,0 +1,229 @@
+body{
+    background-color: rgba(195, 218, 201, 0.815);
+}
+#h{
+    text-align: center;
+    color: rgb(85, 84, 84);
+    font-family:"Amiri", serif;
+}
+h2{
+    font-family:"Amiri", serif;
+}
+.hnav{
+    text-align: center;
+    height: 25px;
+    padding: 0px 10px;
+    padding-top: 5px;
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: 10%;
+    background-color: #2525259a;
+    border: 1px solid #272626;
+    border-radius: 20px;
+}
+.hnav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.hnavbar{
+    display: inline;
+    border: #2525259a;
+    border-radius: 15px;
+    padding: 6px 0px;
+}
+.hnavbar:hover{
+    background-color: #8f8c8c;
+}
+
+.fnav{
+    text-align: center;
+    height: 100%;
+    padding: 0px 10px;
+    padding-bottom: 3px;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #2525259a;
+    border: 1px solid #272626;
+    border-radius: 20px;
+}
+.fnav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5%;
+}
+.fnav a:hover{
+    color: rgb(125, 235, 125);
+}
+
+
+.all{
+    border: 2px solid rgba(173, 192, 178, 0.815);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 10px;
+    background-color: #99c5a4b7;
+}
+section{
+    border: 2px solid rgba(139, 180, 149, 0.719);
+    border-radius: 10px;
+    background-color: rgba(148, 187, 157, 0.719);
+    padding: 0px 5px 15px 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+input{
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgb(172, 175, 174);
+    width:55px ;
+    height: 55px;
+    border: 1px solid rgb(77, 194, 77);
+    border-radius: 50%;
+}
+input:hover{
+    background-color: rgba(128, 128, 128, 0.534);
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+}
+.p1{
+    color: brown;
+    font-weight: bolder;
+    font-size: large;
+}
+.p2{
+    font-size:medium;
+    font-weight:550;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+}
+.p3{
+    color: #535353;
+    font-style: italic;
+}
+.p4{
+    color: #20792f;
+    font-size:medium ;
+}
+.copy{
+    color: #3f3f3f;
+    font-size: small;
+}
+
+
+/* ---Finish Buttons--- */
+
+.btnFinsh1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 4%;
+}
+.finsh1{
+    background-color: #535353;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Changa', sans-serif;
+    transform: scaleX(1.2);
+    margin-left: 12px;
+}
+.finsh1:hover{
+    background-color: #8f8c8c;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btnFinsh2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 4%;
+}
+.finsh2{
+    background-color: #535353;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-family: 'Changa', sans-serif;
+    transform: scaleX(1.2);
+    margin-left: 12px;
+}
+.finsh2:hover{
+    background-color: #8f8c8c;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+/* --------Refresh Buttons-------- */
+.refresh1{
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.refresh1:hover{
+    cursor: pointer;
+    background-color: #5a5a5a6b;
+}
+.refresh2{
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.refresh2:hover{
+    cursor: pointer;
+    background-color: #5a5a5a6b;
+}
+
+
+/* --------------Sebha--------------- */
+
+.cnt{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.ctr{
+    width: 80px;
+    color: brown;
+    height: 80px;
+    margin-bottom: 25px;
+    font-size: larger;
+    background-color: rgba(224, 222, 222, 0.534);
+}
+.ctr:hover{
+    background-color: rgba(128, 128, 128, 0.534);
+}
+.restart{
+    border-radius:15px ;
+    height: 30px;
+    color: #e9f0e9;
+    background-color: rgb(58, 57, 57);
+    font-family:'Changa', sans-serif; ;
+    border-color: rgb(15, 15, 15);
+    transform:scaleX(1.1) ;
+}
+.restart:hover{
+    background-color: rgb(42, 184, 73);
+}
